@@ -1,6 +1,9 @@
 body {
   background-color: black;
 }
+
 h1 {
   color: white;
+  text-align: center;
+  text-decoration: underline white solid 5px;
 }
