@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T19:05:03.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="8dkMfbOCSSu56d0SJyoA" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-26T19:05:44.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ZcgMOUQ7axOgBdaGEztk" version="24.4.8" type="github">
   <diagram name="Page-1" id="levlxRdsv0RBj5wYn_LF">
-    <mxGraphModel dx="1034" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
           <mxGeometry x="81" y="900" width="359" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nYmXPnhyYEbwNrwyuGFq-40" value="Logos of different sites where you connect with us or lookup at" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="529" y="900" width="201" height="50" as="geometry" />
+          <mxGeometry x="510" y="900" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nYmXPnhyYEbwNrwyuGFq-41" value="&lt;sup&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Benefits and advantages for using our product&lt;/font&gt;&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="110" y="570" width="210" height="80" as="geometry" />
