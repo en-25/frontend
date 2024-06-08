@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/loginpage.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <form action="login_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="The Club-logos_black.png" alt="The Club Logo" class="avatar">
+      </div>
+      <div class="container">
+        <div id="a1">
+          <label for="email"><b>E-mail &nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+          <input class="round" type="email" placeholder="Enter email address*" name="email" required>
+        </div>
+        <div>
+          <label for="psw"><b>Password</b></label>
+          <input class="round" type="password" placeholder="Enter Password" name="pwd" required><br>
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" checked="checked" name="remember">
+            Remember me
+          </label>
+        </div>
+        <div>
+          <button type="submit"><b>Login</b></button>
+        </div>
+        <div>
+          <span class="psw"><a href="#" style="text-decoration:none">Forgotten password?</a></span>
+        </div>
+        <div>
+          <button type="submit">Create Account</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
