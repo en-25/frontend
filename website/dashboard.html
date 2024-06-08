@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboardCss.css">
+    <script>dashboard-scripts.js</script>
+</head>
+<body>
+    <header id = "menu">
+        <button id="menuButton">&#9776; </button>
+        <button id="signOutButton">Sign Out</button>        
+        <header id="dashboard">
+            <h1>Dashboard</h1>
+        </header>
+    </header>
+
+    <div id="overlayMenu" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" id="closeBtn">&times;</a>
+        <div class="overlay-content">
+            <img src="pp.jpg" alt="Profile Picture" id="profilePic">
+            <a href="#">Home</a>
+            <a href="#">Reports</a>
+            <a href="#">Resume</a>
+            <a href="#">Settings</a>
+            <a href="#">Help</a>
+        </div>
+    </div>
+
+    
+    <main>
+        <section id="user-info">
+            <h2>User Information</h2>
+            <p>Welcome, [Username] <!-- username fetch from backend --> </p>
+            
+        </section>
+
+
+        <section id="UpcomingTest">
+            <h2>Upcoming Test</h2>
+            <h3>TEST DETAILS</h3>
+            <h4>Subject: XYZ</h4>
+            <h4>Time: X mins</h4>
+
+            <section id="timer">
+                <h2>Time to Start</h2>
+                <h3>00:00:00</h3>
+                <!-- timer code -->
+                <button id="startButton">Start Test</button>
+            </section>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Resu-ALT. All rights reserved.</p>
+    </footer>
+    <script src="dashboard-scripts.js"></script>
+</body>
+</html>
