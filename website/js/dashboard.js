@@ -12,10 +12,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     closeBtn.addEventListener('click', () => {
         overlayMenu.style.width = '0';
     });
+    
+    const signoutBtn = document.getElementById('signout-btn');
+    signoutBtn.addEventListener('click', () => {
+        window.location = "../index.html"
+    });
 });
-
-const signoutBtn = document.getElementById('signout-btn');
-signoutBtn.addEventListener('click', () => {
-    window.location = "../index.html"
-});
-
