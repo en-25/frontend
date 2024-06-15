@@ -54,7 +54,7 @@ footer {
     width: 100%;
 }
 
-#menuButton {
+#menu-btn {
     font-size: 30px;
     cursor: pointer;
     background-color: transparent;
@@ -121,7 +121,7 @@ footer {
     position: relative;
 }
 
-#signOutButton {
+#signout-btn {
     font-size: 16px;
     cursor: pointer;
     background-color: #e4594f;
@@ -134,7 +134,7 @@ footer {
     right: 10px;
 }
 
-#startButton{
+#start-btn {
     font-size: 16px;
     cursor: pointer;
     background-color: #48e41c;
@@ -144,11 +144,11 @@ footer {
     border-radius: 5px;
 }
 
-#signOutButton:hover {
+#signout-btn:hover {
     background-color: #d32f2f;
     color: #fff;
 }
-#startButton:hover {
+#start-btn:hover {
     background-color: #439135;
     color: #fff;
 }
