@@ -12,9 +12,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     closeBtn.addEventListener('click', () => {
         overlayMenu.style.width = '0';
     });
-});
+
 
 const signoutBtn = document.getElementById('signout-btn');
 signoutBtn.addEventListener('click', () => {
     location.href = "en-25.github.io/frontend/website/index.html"
+});
 });
