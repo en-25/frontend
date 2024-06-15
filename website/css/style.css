@@ -103,6 +103,7 @@ main {
     background-color: black;
     border-radius: 10px;
     margin-left: -8px;
+    margin-right: -7px;
     overflow-x: hidden;
 }
 
@@ -120,6 +121,7 @@ footer {
     position: relative;
     width: 100vw;
     margin-left: -10px;
+    margin-right: -7px;
     display: flex;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
