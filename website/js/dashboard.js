@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 const signoutBtn = document.getElementById('signout-btn');
 signoutBtn.addEventListener('click', () => {
-    location.href = "../index.html"
+    location.href = "en-25.github.io/frontend/website/index.html"
 });
