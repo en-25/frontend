@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     
     const signoutBtn = document.getElementById('signout-btn');
     signoutBtn.addEventListener('click', () => {
-        window.location = "../"
+        window.location = "../";
     });
 });
