@@ -99,8 +99,8 @@
 
 /* Main Css */
 main {
-    /* background-color: #f0f2f5; */
-    background-color: black;
+    background-color: #f0f2f5;
+    /* background-color: black; */
     border-radius: 10px;
     margin-left: -8px;
     margin-right: -8px;
@@ -169,7 +169,7 @@ footer {
 
 /* Basic Css */
 h1 {
-    color: pink;
+    color: black;
     text-align: center;
     text-decoration: underline lightseagreen solid 3px;
 }
