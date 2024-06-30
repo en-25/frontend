@@ -8,7 +8,7 @@
 .header-box {
     display: block;
     position: relative;
-    height: 50px;
+    height: 63px;
 }
 
 .header-css {
@@ -78,6 +78,7 @@
     box-shadow: 5px 0 15px black;
     background-color: #7ccbd5;
     transition: 0.7s;
+    color: black;
 }
 
 
@@ -126,7 +127,7 @@ footer {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 5px 1px 3px black;
-    border-top: black solid 1px;    
+    border-top: black solid 1px;
 }
 
 .footer-content {
@@ -155,6 +156,10 @@ footer {
     padding-top: 7px;
     position: absolute;
     right: 1%;
+}
+
+.footer-list {
+    margin-top: 16.5px;
 }
 
 .footer-social-links {
