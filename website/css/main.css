@@ -66,6 +66,15 @@ a.card-body {
  padding-bottom: 8rem;
 }
 
+.service-type-gap h2 {
+    text-align: center;
+    text-decoration: underline black solid;
+}
+
+.highlight {
+    color: #c73260;
+}
+
 h2.col-md-6 {
     padding-bottom: 3rem;
     padding-top: 2rem;
