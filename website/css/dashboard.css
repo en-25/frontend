@@ -2,8 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0e7ea;  /* light blue-grey */
-    color: #333;  /* dark grey for text */
+    background-color: #e0e7ea;  
+    color: #333;  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -18,6 +21,7 @@ header {
 
 main {
     padding: 20px;
+     flex: 1;
 }
 
 section {
@@ -46,12 +50,12 @@ h2 {
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background-color: #455a64;  /* blue-grey */
+    padding: 5px 0;  
+    background-color: #455a64; 
     color: white;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    font-size: 14px; 
+    position: relative;
 }
 
 #menu-btn {
@@ -151,3 +155,48 @@ footer {
     background-color: #439135;
     color: #fff;
 }
+
+#question-answering {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#question-answering h2 {
+    color: #1e3c52;  /* dark blue-grey */
+}
+
+#question-answering form {
+    display: flex;
+    flex-direction: column;
+}
+
+#question-answering label {
+    margin-bottom: 10px;
+}
+
+#question-answering textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#question-answering button {
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #48e41c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+#question-answering button:hover {
+    background-color: #439135;
+    color: #fff;
+}
+
