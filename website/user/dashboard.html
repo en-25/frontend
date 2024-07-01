@@ -51,6 +51,24 @@
                 <button id="start-btn">Start Test</button>
             </section>
         </section>
+
+                <section id="assignment-upload">
+            <h2>Assignment Upload</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="assignment">Choose Assignment File:</label>
+                <input type="file" id="assignment" name="assignment" required>
+                <button type="submit">Upload Assignment</button>
+            </form>
+        </section>
+
+        <section id="question-answering">
+            <h2>Company/University Question Answering</h2>
+            <form action="/ask" method="post">
+                <label for="question">Enter your question:</label>
+                <textarea id="question" name="question" rows="4" cols="50" required></textarea>
+                <button type="submit">Submit Question</button>
+            </form>
+        </section>
         
     </main>
     <footer>
