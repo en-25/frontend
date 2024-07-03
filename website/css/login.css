@@ -9,7 +9,6 @@ body {
     background: url("RESU-ALT IMAGE.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 .container {
@@ -24,7 +23,6 @@ body {
 h2 {
     margin-bottom: 1.5rem;
 }
-
 
 .input-group {
     margin-bottom: 2rem;
@@ -44,7 +42,7 @@ h2 {
     border-radius: 4px;
 }
 
-.input-group i{
+.input-group i {
     position: absolute;
     left: 20px;
     top: 50%;
