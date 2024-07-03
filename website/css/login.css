@@ -11,9 +11,29 @@ body {
     background-position: center;
 }
 
+.wrapper {
+    margin-top: -4rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.logo img {
+    margin: 5%;
+    padding: 3%;
+    height: 70px;
+    width: 70px;
+    border-radius: 20%;
+}
+
 .container {
     background-color: transparent;
-    padding: 2rem;
+    padding: 1.8rem;
     border-radius: 6%;
     box-shadow: 0 0 10px rgba(201, 137, 228, 0.958);
     width: 300px;
@@ -21,7 +41,8 @@ body {
 }
 
 h2 {
-    margin-bottom: 1.5rem;
+    margin-top: -9px;
+    margin-bottom: 1.33rem;
 }
 
 .input-group {
