@@ -1,5 +1,6 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
 
+/* Main Css */
 body {
     margin: revert;
     font-family: 'Times New Roman', Times, serif;
@@ -73,6 +74,10 @@ a.card-body {
 
 .highlight {
     color: #c73260;
+}
+
+#bottombutton a {
+    color: white;
 }
 
 h2.col-md-6 {
