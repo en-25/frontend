@@ -275,5 +275,5 @@ footer {
 h1 {
     color: black;
     text-align: center;
-    text-decoration: underline lightseagreen solid 3px;
+    text-decoration: underline rgb(136, 191, 255) solid 5px;
 }
