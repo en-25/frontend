@@ -19,8 +19,17 @@ a:hover {
     text-decoration: none;
 }
 
+.main-heading {
+    font-size: 75px;
+    font-weight: bold;
+}
+
 .section-padding {
     padding: 70px;
+}
+
+.main {
+    background: linear-gradient(30deg, #F7C8FF, #fff);
 }
 
 .services {
@@ -56,7 +65,7 @@ section.services {
 }
 
 .card-body {
-background-color: #ffebef;
+    background-color: #ffebef;
 }
 
 a.card-body {
