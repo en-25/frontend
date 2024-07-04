@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+/* Contact Css */
 main {
     background: linear-gradient(30deg, #FDB9DC, #fff);
 }
@@ -241,4 +242,9 @@ span {
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn span {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
 }
